@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #a0a0b3;
+	font-family: 'Muli', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+}
+a {
+	color: white;
+	border: 1px solid blueviolet;
+	background: blueviolet;
+	border-radius: 10px;
+	padding: 20px;
+	text-decoration: none;
+	margin-right: 500px;
+}
+a:hover {
+	color: cornsilk;
+}
+img {
+	width: 50px;
+	margin-right: 10px;
+	padding-top: 30px;
+	/* display: none; */
+}
+.container {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+	padding: 50px 20px;
+	text-align: center;
+	max-width: 100%;
+	width: 800px;
+}
+.contain {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.question {
+	font-size: 30px;
+	letter-spacing: 1px;
+	line-height: 40px;
+	margin: 50px auto;
+	max-width: 600px;
+}
+.btn1 {
+	border: 0;
+	border-radius: 10px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	font-size: 14px;
+	padding: 14px 40px;
+}
+.btn2 {
+	border: 0;
+	border-radius: 10px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	font-size: 14px;
+	padding: 14px 40px;
+}
+
+.btn1:active {
+	transform: scale(0.98);
+}
+.btn2:active {
+	transform: scale(0.98);
+}
+.btn1:hover {
+	opacity: 0.9;
+}
+.btn2:hover {
+	opacity: 0.9;
+}
+
+.btn:focus {
+	outline: 0;
+}
+.trueOrFalse {
+	padding-top: 2rem;
+}
+@media screen and (max-width: 480px) {
+	.social-panel-container.visible {
+		transform: translateX(0px);
+	}
+
+	.floating-btn {
+		right: 10px;
+	}
+}
